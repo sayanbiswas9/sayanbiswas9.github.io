@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 2em 0;
+    background: #333;
+    color: #fff;
+}
+
+h1, h3 {
+    margin: 0;
+}
+
+.profile-views, .trophy, .about, .connect, .skills, .stats {
+    padding: 1em;
+    margin: 1em auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about ul li {
+    padding: 0.5em 0;
+}
+
+.connect img, .skills img {
+    vertical-align: middle;
+}
+
+.stats img {
+    width: 100%;
+    margin: 0.5em 0;
+}
