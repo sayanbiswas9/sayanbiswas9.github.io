@@ -10,12 +10,19 @@ body {
 header {
     text-align: center;
     padding: 2em 0;
-    background: #333;
-    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ddd;
 }
 
-h1, h3 {
-    margin: 0;
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #555;
 }
 
 .profile-views, .trophy, .about, .connect, .skills, .stats {
@@ -36,11 +43,7 @@ h1, h3 {
     padding: 0.5em 0;
 }
 
-.connect img, .skills img {
-    vertical-align: middle;
-}
-
-.stats img {
-    width: 100%;
-    margin: 0.5em 0;
+.about ul li a {
+    color: #0073e6;
+    text-decoration: none;
 }
