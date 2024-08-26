@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "Access the profile page of @sayanbiswas9" 
+AuthUserFile ./.htpasswd 
+require valid-user
