@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayan Biswas Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ariel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="https://raw.githubusercontent.com/rawdata/main/black-background-with-leaves-vegetation-texture.jpg" alt="Background Image" class="background">
+        <div class="profile-section">
+            <img src="https://raw.githubusercontent.com/sayanbiswas9/rawdata/main/IMG_20240826_220257.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Sayan Biswas</h1>
+            <p>a passionate Python Developer from West Bengal, India</p>
+        </div>
+
+        <div class="info-section">
+            <p>🔧 I am currently working on <a href="https://raw.githubusercontent.com/sayanbiswas9/rawdata/main/iplocate_img.jpg" target="_blank">IPLocate.</a></p>
+            <p>🌱 I am currently learning <a href="#">Python Advanced</a>, <a href="#">SQL Basics</a></p>
+            <p>🤝 I am looking to collaborate for <a href="#">IPLocate.</a></p>
+            <p>💬 Also ask me about Linux Programs.</p>
+            <p>📬 Reach me: <span class="email" onclick="copyToClipboard()">anony0101@duck.com</span></p>
+        </div>
+    </div>
+
+    <script>
+        function copyToClipboard() {
+            const emailText = "anony0101@duck.com";
+            navigator.clipboard.writeText(emailText).then(function() {
+                alert('Email copied to clipboard!');
+            }, function(err) {
+                alert('Error copying email: ', err);
+            });
+        }
+    </script>
+</body>
+</html>
